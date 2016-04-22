@@ -1,0 +1,14 @@
+Driver for Realtek chipset RTL8192EU: how-to install
+
+1. Download the driver package Realtek-RTL8192EU-driver.tar.gz into the folder Downloads.
+
+2. First unpack it in the terminal, because it's a compressed folder with files. In the terminal (use copy/paste):
+cd Downloads && tar xvzf ~/Downloads/Realtek*.tar.gz
+
+3. Now go to the uncompressed folder: in the terminal (use copy/paste):
+cd install_folder
+
+4. Finally: the actual installation. In the terminal (use copy/paste):
+sudo ./install.sh
+
+5. Plug the wireless dongle with the Realtek chipset into you computer: it should be functional now.
